@@ -16,7 +16,7 @@ public class Book {
     private String subject;
     private String title;
 
-    public Book(String isbn, String author, String title, int pageCount, String subject, LocalDate dueDate) {
+    public Book(String isbn, String title, String subject, int pageCount, String author, LocalDate dueDate) {
         this.author = author;
         this.dueDate = dueDate;
         this.isbn = isbn;
